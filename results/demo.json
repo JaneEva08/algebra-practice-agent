@@ -1,0 +1,44 @@
+[
+  {
+    "prompt": "Дай простое упражнение на линейные уравнения.",
+    "tool_calls": [
+      {
+        "name": "get_practice_task",
+        "args": {
+          "difficulty": "easy",
+          "topic": "equations"
+        },
+        "id": "call_fcdee90deb744dbaa563ea79c6a0fcd1",
+        "type": "tool_call"
+      }
+    ],
+    "tool_results": [
+      {
+        "name": "get_practice_task",
+        "content": "{\"id\": \"eq-e1\", \"topic\": \"equations\", \"difficulty\": \"easy\", \"question\": \"Реши уравнение x + 3 = 10.\"}"
+      }
+    ],
+    "answer": "**Упражнение eq-e1:** Реши уравнение \\(x + 3 = 10\\).\n\nЖду твою попытку."
+  },
+  {
+    "prompt": "Дай сложнее по той же теме.",
+    "tool_calls": [
+      {
+        "name": "get_practice_task",
+        "args": {
+          "difficulty": "medium",
+          "topic": "equations"
+        },
+        "id": "call_e188a60d425f4365bacbbffb6f822885",
+        "type": "tool_call"
+      }
+    ],
+    "tool_results": [
+      {
+        "name": "get_practice_task",
+        "content": "{\"id\": \"eq-m1\", \"topic\": \"equations\", \"difficulty\": \"medium\", \"question\": \"Реши уравнение 3x - 5 = 10.\"}"
+      }
+    ],
+    "answer": "**Упражнение eq-m1:** Реши уравнение \\(3x - 5 = 10\\).\n\nЖду твою попытку."
+  }
+]
